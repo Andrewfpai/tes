@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+
+:root{
+    /* Creating Variable*/
+    /*Primary*/
+    --Pale-blue: hsl(225, 100%, 96%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    
+    /*Neutral*/
+    --Very-pale-blue: hsl(225, 100%, 99.5%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+}
+
+body{
+    background-color: var(--Pale-blue);
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 10px;
+}
+
+.card{
+    border-radius: 10px;
+    background: var(--Very-pale-blue);
+    max-width: 450px;
+    text-align: center;
+    margin: 30px auto;
+    box-shadow: 0 6px 12px 0 var(--Desaturated-blue);
+}
+
+
+.illustration-hero{
+   border-radius: 10px;
+   margin-top: 30px;
+    
+}
+.header{
+
+    h1{
+    font-weight: 700;
+    padding-top: 20px;
+    }
+}
+
+.Description{
+    font-size: 17px;
+    padding: 0px 60px;
+    color: var(--Desaturated-blue);
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.annual_plan{
+    display: flex;
+    margin-bottom: 100px;
+    background-color: var(--Pale-blue);
+    padding: 10px 25px;
+    margin: 40px 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-annual{
+    display: flex;
+    justify-content: center;
+    }
+
+    .plan{
+    font-weight: 700;
+    margin: auto 10px;
+    justify-content: center;
+        
+   
+
+    }
+
+    span{
+        color: var(--Desaturated-blue);
+    }
+
+    .change{
+        font-weight: 700;
+        // margin: auto 90px;
+        /*padding: 30px 90px 10px;*/
+    }
+    .change:hover{
+        text-decoration: none;
+        opacity: 0.7;
+    }
+}
+
+
+.submit{
+
+    a{
+    text-decoration: none;
+    color:white;
+    background-color: var(--Bright-blue);
+    box-shadow: 0 6px 12px 0 var(--Desaturated-blue);
+    border-radius: 10px;
+    padding: 15px 100px;
+    font-weight: 700;
+
+}
+    a:hover{
+        opacity: 0.7;
+}
+}
+
+.cancel{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+    a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Desaturated-blue);
+    font-size: 14px;
+    }
+    a:hover{
+        color: black;
+}
+}
+
+.credit{
+    font-size: small;
+    text-align: center;
+    margin-top: 50px;
+}
